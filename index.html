@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Uganda Wildlife Conservation Society</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Uganda Wildlife Conservation Society</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="wildlife-projects.html">Wildlife & Projects</a></li>
+                <li><a href="events-education.html">Events & Education</a></li>
+                <li><a href="support-contact.html">Support & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="home">
+            <h1>Uganda's  wildlife</h1>
+            <img src="images/wildlife.jpg" alt="Uganda Wildlife">
+            <h2>Welcome to the UWCS </h2>
+            <p> At the Uganda Wildlife Conservation Society (UWCS), we are committed to preserving and protecting Uganda's unique and diverse wildlife. 
+                Join us in creating a future where nature and people thrive together.
+            </p><br>
+            <p2>Uganda is home to a stunning array of wildlife, including the iconic mountain gorillas, lions, elephants, and diverse bird species. 
+                These creatures are not only vital to the ecological balance but also form a cornerstone of Uganda's cultural heritage and tourism.
+                Conservation is crucial to ensure the survival of these species. By protecting their habitats and promoting sustainable practices, 
+                we can safeguard Uganda's natural legacy and support communities that depend on these ecosystems.</p2>
+
+            <h2>our mission ,vision and corevalues</h2>
+            <article>
+            <h3>mission</h3>
+            <p> To conserve and protect Uganda's wildlife for present and future generations through sustainable practices and community involvement.</p></p>
+         </article>
+         <article>
+            <h3>vision</h3>
+            <p>A thriving ecosystem where Uganda's rich biodiversity is preserved for generations to come.</p>
+            </article>
+            <article>
+                <h3>corevalues</h3>
+                <ul>
+                    <li>Integrity in conservation</li>
+                    <li>Commitment to sustainability</li>
+                    <li>Respect for biodiversity and communities</li>
+                    <li>Innovation in wildlife protection</li>
+                </ul>
+            </article>
+
+        </section>
+    
+    <section id="wildlife-projects">
+        <h2>uganda's wildlife</h2>
+        <p>Discover the diversity of Uganda's wildlife, including mammals, birds, reptiles, and endangered species.</p>
+        <h3>Mammals</h3>
+        <img src="images/mammals.jpg" alt="Mammals in Uganda">
+        <p>From lions to elephants, Uganda is home to a wide array of mammals.</p>
+        <h3>Birds</h3>
+        <img src="images/birds.jpg" alt="Birds in Uganda">
+        <p>Uganda is a birder's paradise with over 1,000 bird species.</p>
+        <h3>Reptiles</h3>
+        <img src="images/reptiles.jpg" alt="Reptiles in Uganda">
+        <p>From Nile crocodiles to unique lizards, explore Uganda’s reptilian life.</p>
+        <h3>Endangered Species</h3>
+        <img src="images/endangered.jpg" alt="Endangered species in Uganda">
+        <p>Learn about the critically endangered species and efforts to protect them.</p>
+
+        <h2>Conservation Projects</h2>
+        <p>Uganda is actively involved in conservation projects to protect its natural heritage. Here are some notable initiatives:</p>
+        <h3>Project: Gorilla Conservation</h3>
+        <img src="images/gorilla-project.jpg" alt="Gorilla Conservation">
+        <p><strong>Goals:</strong> Protect mountain gorillas and their habitat.</p>
+        <p><strong>Achievements:</strong> Increased population numbers over the past decade.</p>
+        <button onclick="alert('Thank you for your interest! Visit our donation page to contribute.')">Get Involved</button>
+        
+        <h3>Project: Wetland Restoration</h3>
+        <img src="images/wetland-restoration.jpg" alt="Wetland Restoration">
+        <p><strong>Goals:</strong> Restore degraded wetlands and promote biodiversity.</p>
+        <p><strong>Achievements:</strong> Several hectares of wetlands restored in 2023.</p>
+        <button onclick="alert('Thank you for your interest! Volunteer with us to make a difference.')">Get Involved</button>
+    </section>
+
+    <section id  id="events- education ">
+            <h2>Upcoming Events</h2>
+            <div class="event">
+                <h3>Wildlife Photography Workshop</h3>
+                <p>Date: January 15, 2024</p>
+                <p>Location: Victoria Park</p>
+                <button onclick="register('Wildlife Photography Workshop')">Register</button>
+              </div>
+              <div class="event">
+                <h3>Conservation Strategies Webinar</h3>
+                <p>Date: February 10, 2024</p>
+                <p>Location: Online</p>
+                <button onclick="register('Conservation Strategies Webinar')">Register</button>
+              </div>
+            <p>Join workshops and events to support conservation efforts.</p>
+         <h2>Education resources</h2>
+         <ul>
+            <li><a href="articles/wildlife_guide.pdf" download>Wildlife Conservation Guide (PDF)</a></li>
+            <li><a href="videos/conservation_tips.mp4" download>Conservation Tips Video (MP4)</a></li>
+            <li><a href="articles/student_projects.pdf" download>Student Project Ideas (PDF)</a></li>
+          </ul>
+    
+        </section>
+
+        <section id="contact-support">
+            <h2>Support Us</h2>
+            <p>Donate to our conservation initiatives or volunteer with us.</p>
+            <p>Your support helps us achieve our mission. Here are ways you can donate:</p>
+            <ul>
+                <li><strong>Bank Transfer:</strong> Account Name: UWCS, Account Number: 123456789, Bank: ABC Bank.</li>
+                <li><strong>Mobile Money:</strong> +1234567890</li>
+                <li><strong>Online Payment:</strong> <a href="https://uwcs-donate.example.com">Click here to donate</a></li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <form>
+                <form action="submit-form.php" method="post"></form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    <footer>
+        <p>© 2024 Uganda Wildlife Conservation Society</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>  
